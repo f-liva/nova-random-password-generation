@@ -46,7 +46,7 @@ export default {
               }
 
               if (!this.field.exclude_rules.includes('symbols')){
-                chars += '!@#$'
+                chars += '?*@_^~-{}%,#=+.'
               }
               if (!this.field.exclude_rules.includes('numbers')){
                 chars += '1234567890'
@@ -58,7 +58,7 @@ export default {
                 chars += 'abcdefghijklmnopqrstuvwxyz'
               }
             } else{
-              chars = 'abcdefghijklmnopqrstuvwxyz!@#$1234567890ABCDEFGHIJKLMNOP';
+              chars = 'abcdefghijklmnopqrstuvwxyz?*@_^~-{}%,#=+.1234567890ABCDEFGHIJKLMNOP';
             }
 
             var pass = "";
