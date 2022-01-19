@@ -46,7 +46,7 @@ export default {
               }
 
               if (!this.field.exclude_rules.includes('symbols')){
-                chars += '!@#$%^&*()-+<>'
+                chars += '!@#$'
               }
               if (!this.field.exclude_rules.includes('numbers')){
                 chars += '1234567890'
