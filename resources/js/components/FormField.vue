@@ -58,7 +58,7 @@ export default {
                 chars += 'abcdefghijklmnopqrstuvwxyz'
               }
             } else{
-              chars = 'abcdefghijklmnopqrstuvwxyz!@#$%^&*()-+<>1234567890ABCDEFGHIJKLMNOP';
+              chars = 'abcdefghijklmnopqrstuvwxyz!@#$1234567890ABCDEFGHIJKLMNOP';
             }
 
             var pass = "";
